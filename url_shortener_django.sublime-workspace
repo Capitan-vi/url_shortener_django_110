@@ -1,0 +1,493 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pa",
+				"password_list"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"passw",
+				"password_list"
+			],
+			[
+				"win",
+				"Win"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"C",
+				"Cartesian"
+			],
+			[
+				"cap",
+				"captain_fantastic"
+			],
+			[
+				"the",
+				"the_glass_castle"
+			],
+			[
+				"tr",
+				"trailer_youtube_url"
+			],
+			[
+				"toy",
+				"toy_story"
+			],
+			[
+				"to",
+				"toy_story"
+			],
+			[
+				"tra",
+				"trailer_youtube"
+			],
+			[
+				"mo",
+				"movie_storyline"
+			],
+			[
+				"moiv",
+				"movie_title"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"de",
+				"decode"
+			],
+			[
+				"che",
+				"check_result"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"r",
+				"request"
+			],
+			[
+				"check",
+				"check_text"
+			],
+			[
+				"http",
+				"https"
+			],
+			[
+				"read",
+				"read_text"
+			],
+			[
+				"rea",
+				"read_text"
+			],
+			[
+				"url",
+				"urllib"
+			],
+			[
+				"dra",
+				"draw_triangle"
+			],
+			[
+				"ci",
+				"circle"
+			],
+			[
+				"cir",
+				"circle_turtle"
+			],
+			[
+				"draw",
+				"draw_square"
+			],
+			[
+				"sra",
+				"square_turtle"
+			],
+			[
+				"sq",
+				"square_turtle"
+			],
+			[
+				"for",
+				"forward"
+			],
+			[
+				"renam",
+				"rename_files"
+			],
+			[
+				"file",
+				"file_name"
+			],
+			[
+				"vi",
+				"view"
+			],
+			[
+				"transla",
+				"translation_table"
+			],
+			[
+				"tran",
+				"translation_table"
+			],
+			[
+				"file_",
+				"file_list"
+			],
+			[
+				"o",
+				"o"
+			],
+			[
+				"O",
+				"ORDER"
+			],
+			[
+				"accou",
+				"account_id"
+			],
+			[
+				"total",
+				"total_amt_usd"
+			],
+			[
+				"A",
+				"Account_name"
+			],
+			[
+				"region",
+				"region_id"
+			],
+			[
+				"sale",
+				"sales_reps"
+			],
+			[
+				"account",
+				"account_id"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"sales",
+				"sales_rep_id"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/Python3.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/Python3.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"one dark ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 163.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/visty/Documents/python_work/url_shortener_django110",
+		"/Users/visty/Documents/python_work/url_shortener_django110/src"
+	],
+	"file_history":
+	[
+		"/Users/visty/Documents/python_work/django1_1_url_shortener/src/kirr/settings.py",
+		"/Users/visty/Documents/b2b info/deleted and need to be deactivated",
+		"/Users/visty/Documents/python_work/rock_paper_scissors/accounts.csv",
+		"/Users/visty/Documents/python_work/movie_website/entertainment_center.py",
+		"/Users/visty/Documents/python_work/movie_website/media.py",
+		"/Users/visty/Documents/python_work/take_break/take_break.py",
+		"/Users/visty/Documents/python_work/check_profanity/check_profanity.py",
+		"/Users/visty/Documents/python_work/drawing_shapes/drawing_shapes.py",
+		"/Users/visty/Documents/python_work/movie_website/movie_website.py",
+		"/Users/visty/Documents/python_work/text_messages/text_messages.py",
+		"/Users/visty/Documents/python_work/drawing_shapes/multiple_squares.py",
+		"/Users/visty/Documents/python_work/check_profanity/check_profanity_via_get.py",
+		"/Users/visty/Documents/python_work/check_profanity/useful_function.py",
+		"/Users/visty/Documents/python_work/check_profanity/untitled",
+		"/Users/visty/Documents/python_work/change_name/change_name.py",
+		"/Users/visty/Documents/python_work/change_name_custom/change_name_custom.py",
+		"/Users/visty/Documents/python_work/change_name/Steps to change names",
+		"/Users/visty/Documents/python_work/take_break.py",
+		"/Users/visty/Documents/python_work/ada_lovelace.py",
+		"/Users/visty/Documents/djangoprc/projects/first_django_project/tmp_calc_app/urls.py",
+		"/Users/visty/Documents/python_work/hello_world.py",
+		"/Users/visty/Documents/djangoprc/projects/fun_django/venv/pyvenv.cfg",
+		"/Users/visty/Documents/b2b info/delete_profile_b2b.ostrovok",
+		"/Users/visty/Documents/b2b info/login_b2b.ostrovok",
+		"/Users/visty/Documents/b2b info/rates comparaison/order_id_769436770_final_rate.json",
+		"/Users/visty/Documents/b2b info/rates comparaison/order_id_769436770_original_rate.json",
+		"/Users/visty/Library/Application Support/Sublime Text 3/Packages/User/Python3.sublime-build",
+		"/Users/visty/Documents/b2b info/order_dates_fixing",
+		"/Users/visty/Downloads/Result_13.csv",
+		"/Users/visty/Documents/b2b info/cd_agency_with_vat__true.txt",
+		"/Users/visty/Documents/b2b info/testing/EUR 132fbd2c@test.com",
+		"/Users/visty/Documents/b2b info/testing/USD cc87e7fa@test.com.json",
+		"/Users/visty/Documents/b2b info/testing/GBP c480c0fe@test.com.json",
+		"/Users/visty/Documents/b2b info/testing/cc87e7fa@test.com.json",
+		"/Users/visty/Documents/SQL_practice/WEHERE-AND exmpl.sql",
+		"/Users/visty/Documents/b2b info/testing/85145",
+		"/Users/visty/Library/Application Support/Sublime Text 3/Packages/Pretty JSON/Pretty JSON.sublime-settings",
+		"/Users/visty/Documents/SQL_practice/3. AGGREGATIONS practice.sql",
+		"/Users/visty/Documents/deleted profiles",
+		"/Users/visty/Documents/Notes",
+		"/Users/visty/Documents/SQL_practice/JOIN practice.sql",
+		"/Users/visty/Documents/SQL_practice/select mcl.object_id, mcl.created_at.sql",
+		"/Users/visty/Documents/b2b info Ost/Ручка логина на b2b.ostrovok",
+		"/Users/visty/Documents/SQL_practice/heaping coequal killing.txt",
+		"/Users/visty/Downloads/sqleditor_query_982904.csv",
+		"/Users/visty/Downloads/Residency BF responce.json",
+		"/Users/visty/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/Users/visty/Downloads/Meslo-Font-master/README.textile",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/MetalPerformanceShaders.framework/Versions/A/Headers/MetalPerformanceShaders.h",
+		"/Users/visty/Downloads/hotels.ctmstravel.com.ru:api:v2:order.json"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 128.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 47.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 138.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "url_shortener_django.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
