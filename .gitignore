@@ -2,3 +2,4 @@
 .DS_Store
 src/db.sqlite3
 src/db.sqlite3
+src/.DS_Store
