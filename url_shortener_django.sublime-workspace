@@ -200,10 +200,10 @@
 	"buffers":
 	[
 		{
-			"contents": "",
+			"file": "url_shortener_django.sublime-project",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 45,
 				"line_ending": "Unix"
 			}
 		}
@@ -281,11 +281,14 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/visty/Documents/python_work/url_shortener_django110",
-		"/Users/visty/Documents/python_work/url_shortener_django110/src"
+		"/Users/visty/Documents/GitHub/url_shortener_django_110",
+		"/Users/visty/Documents/GitHub/url_shortener_django_110/src",
+		"/Users/visty/Documents/GitHub/url_shortener_django_110/src/shortener"
 	],
 	"file_history":
 	[
+		"/Users/visty/Documents/python_work/url_shortener_django110/src/shortener/migrations/utils.py",
+		"/Users/visty/Documents/python_work/url_shortener_django110/src/shortener/models.py",
 		"/Users/visty/Documents/python_work/django1_1_url_shortener/src/kirr/settings.py",
 		"/Users/visty/Documents/b2b info/deleted and need to be deactivated",
 		"/Users/visty/Documents/python_work/rock_paper_scissors/accounts.csv",
@@ -375,10 +378,11 @@
 			[
 				{
 					"buffer": 0,
+					"file": "url_shortener_django.sublime-project",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 45,
 						"regions":
 						{
 						},
@@ -391,8 +395,7 @@
 						],
 						"settings":
 						{
-							"auto_name": "",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
