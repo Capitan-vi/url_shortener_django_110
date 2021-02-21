@@ -17,8 +17,14 @@ class HomeView(View):
 
     def post(self, request, *args, **kwargs):
         form = SubmitUrlForm(request.POST)
+
         if form.is_valid():
             print(form.cleaned_data)
+
+        context = {
+            "title": "Shortner.co",
+            "form": form
+        }
         return render(request, "shortener/home.html", context)
 
 class KirrCBView(View):   #class based view
