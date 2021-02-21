@@ -2,6 +2,7 @@ from django.db import models
 from django.conf import settings
 from .utils import code_generator, create_shortcode
 from .validators import validate_url, validate_dot_com
+from django_hosts.resolvers import reverse
 
 SHORTCODE_MAX = getattr(settings, "SHORTCODE_MAX", 15)
 
@@ -33,7 +34,6 @@ class KirrURL(models.Model):
     active = models.BooleanField(default=True)
 
     objects = KirrURLManager()
-    some_random = KirrURLManager()
 
     def save(self, *args, **kwargs):
         if self.shortcode is None or self.shortcode == "":
@@ -43,6 +43,12 @@ class KirrURL(models.Model):
     def __str__(self):
         return str(self.url)
 
+    def __unicode__(self):
+        return str(self.url)
+
+    def get_short_url(self):
+        url_path = reverse("scode", kwargs={'shortcode': self.shortcode}, host='www', scheme='http')
+        return url_path
 '''
 
 After adding a model, do:
