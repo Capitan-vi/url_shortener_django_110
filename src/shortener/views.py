@@ -1,8 +1,7 @@
-from django.http import HttpResponse, HttpResponseRedirect, Http404
+from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render, get_object_or_404
 from django.views import View
 
-from analytics.models import ClickEvent
 from .forms import SubmitUrlForm
 from .models import KirrURL
 
@@ -38,14 +37,5 @@ class HomeView(View):
 
 class URLRedirectView(View):   #class based view
     def get(self, request, shortcode=None, *args, **kwargs):
-        qs = KirrURL.objects.filter(shortcode__iexact=shortcode)
-        if qs.count != 1 and not qs.exists():
-            raise Http404
-        obj = qs.first()
-        print(ClickEvent.objects.create_event(obj))
+        obj = get_object_or_404(KirrURL, shortcode=shortcode)
         return HttpResponseRedirect(obj.url)
-
-
-        # obj = get_object_or_404(KirrURL, shortcode=shortcode)
-        # ClickEvent.object.create_event(obj)
-        # return HttpResponseRedirect(obj.url)
