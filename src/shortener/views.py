@@ -35,7 +35,7 @@ class HomeView(View):
                 template = "shortener/already-exists.html"
         return render(request, template, context)
 
-class KirrCBView(View):   #class based view
+class URLRedirectView(View):   #class based view
     def get(self, request, shortcode=None, *args, **kwargs):
         obj = get_object_or_404(KirrURL, shortcode=shortcode)
         return HttpResponseRedirect(obj.url)
