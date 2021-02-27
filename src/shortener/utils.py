@@ -13,5 +13,7 @@ def create_shortcode(instance, size=SHORTCODE_MIN):
     Klass = instance.__class__
     qs_exists = Klass.objects.filter(shortcode=new_code).exists()
     if qs_exists:
+        print("qs_exists: tRUE")
         return create_shortcode(size=size)
+    print("qs_exists: fALSE")
     return new_code

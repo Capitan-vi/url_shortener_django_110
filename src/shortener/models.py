@@ -34,16 +34,18 @@ class KirrURL(models.Model):
     active = models.BooleanField(default=True)
 
     objects = KirrURLManager()
-    # def save(self, *args, **kwargs):
-    #     if self.shortcode is None or self.shortcode == "":
-    #         self.shortcode = create_shortcode(self)
-    #     if not "http" in self.url:
-    #         self.url = "http://" + self.url
-    #     super(KirrURL, self).save(*args, **kwargs)
 
     def save(self, *args, **kwargs):
+        
+        print("before IFS: self:url = " + self.url)          
         if self.shortcode is None or self.shortcode == "":
             self.shortcode = create_shortcode(self)
+            print("first IF: self.url = " + self.url)
+        if not "http" in self.url:
+            self.url = "http://" + self.url
+            print("second IF: self.url = " + self.url)
+
+
         super(KirrURL, self).save(*args, **kwargs)
 
     def __str__(self):
