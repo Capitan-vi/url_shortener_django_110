@@ -28,14 +28,11 @@ class HomeView(View):
             new_url = form.cleaned_data.get("url")
             if not "http://" in new_url:
                 new_url = "http://" + new_url
-
-            print("POST new_url = " + new_url)
             obj, created = KirrURL.objects.get_or_create(url=new_url)
             context = {
                 "object": obj,
                 "created": created
             }
-            print("created: true/false:   ", created)
             if created:
                 template = "shortener/success.html"
             else:
