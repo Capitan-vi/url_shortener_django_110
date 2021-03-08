@@ -5,13 +5,13 @@
 {% endblock title %}
 
 {% block content %}
-<div class='col-sm-6 col-sm-offset-3'>
-    <h1>Exists Already</h1>
-    <p>{{ object.url }}</p>
+    <div class=''>
+        <h1>Exists Already</h1>
+        <p>{{ object.url }}</p>
 
-    <p>
-        <a class='btn btn-primary btn-link'  href='{{ object.get_short_url }}'>{{ object.get_short_url }}</a>
-    </p>
-    <a class='btn btn-default' href='/'>+ New</a>
-</div>
+        <p>
+            <a class='btn btn-primary btn-link'  href='{{ object.get_short_url }}'>{{ object.get_short_url }}</a>
+        </p>
+        <a class='btn btn-default' href='/'>+ New</a>
+    </div>
 {% endblock content %}

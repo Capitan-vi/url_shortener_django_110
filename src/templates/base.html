@@ -3,12 +3,25 @@
 <head>
     <title>Shorten the URL</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="http://getbootstrap.com/examples/cover/cover.css" rel="stylesheet">
+    <style type="text/css">
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            padding-top:  80px;
+            background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+            transition: all 2.45s;
+        }
+    </style>
 </head>
+
 <body>
     <div class="site-wrapper">
         <div class="site-wrapper-inner">
             <div class="cover-container">
-                <div class="inner cover">
+                <div class="inner cover text-center">
                 {% block content %}
                 {% endblock content %}
                 </div>
@@ -16,4 +29,5 @@
         </div>
     </div>
 </body>
+
 </html>
