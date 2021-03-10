@@ -26,7 +26,7 @@ class HomeView(View):
         template = "shortener/home.html"
         if form.is_valid():
             new_url = form.cleaned_data.get("url")
-            # uncomment and debug later
+            # duplicated validation. Refactor later
             if not "http://" in new_url:  
                 new_url = "http://" + new_url
             obj, created = KirrURL.objects.get_or_create(url=new_url)
